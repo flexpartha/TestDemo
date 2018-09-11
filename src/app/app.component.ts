@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  private name="PARTHA";
+  private userText:string="PARTHA CHAKRABORTY";
+
+  classToApply:string='boldClass italicsClass'
 }
